@@ -1,0 +1,147 @@
+.mask {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.introImg {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.mask {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.introImg {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.mask::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.4;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+}
+.hero .content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  margin-top: 5%;
+  text-align: center;
+}
+.hero .content h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+}
+.hero .content p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero .content .subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: none;
+  margin-bottom: 1rem;
+  color: #f8f9fa;
+  font-family: "Ubuntu", monospace;
+}
+
+.hero .content .description {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: none;
+  margin-bottom: 1.5rem;
+  color: #e9ecef;
+  max-width: 600px;
+  line-height: 1.6;
+  font-family: "Ubuntu", monospace;
+}
+
+.hero .content .skills {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: none;
+  color: #adb5bd;
+  margin-bottom: 2rem;
+  letter-spacing: 0.5px;
+  font-family: "Ubuntu", monospace;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: "Ubuntu", monospace;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 15px rgba(162, 115, 239, 0.3);
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(162, 115, 239, 0.4);
+  background: linear-gradient(135deg, #8b5cf6, #a273ef);
+}
+
+.resume-btn span {
+  font-size: 1.2rem;
+}
+@media screen and( max-width: 640px) {
+  .hero .content h1 {
+    font-size: 3rem;
+  }
+  .hero .content p {
+    font-size: 1.4rem;
+  }
+  .hero .content .subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  .hero .content .description {
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
+    max-width: 90%;
+  }
+  .hero .content .skills {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .button-container {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .resume-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}

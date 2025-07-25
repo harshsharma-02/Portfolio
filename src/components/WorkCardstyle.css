@@ -1,0 +1,106 @@
+.pr-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.pr-cont {
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0;
+    background: none;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.pr-card {
+    background: rgba(61, 58, 58, 0.966);
+    padding: 2.5rem 0 2.5rem 0;
+    width: 80vw;
+    max-width: 900px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(113,48,217,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.pr-card img {
+    height: 340px;
+    width: 100%;
+    max-width: 860px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+.pr-title {
+    color: white;
+    padding: 1rem 0 0.5rem 0;
+    text-align: left;
+    width: 100%;
+    max-width: 860px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.pr-details {
+    width: 100%;
+    max-width: 860px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pr-details p {
+    padding-bottom: 1.2rem;
+    font-size: 1.15rem;
+    text-align: justify;
+    color: #e0e0e0;
+}
+.pr-btns {
+    display: flex;
+    gap: 1.2rem;
+    justify-content: flex-start;
+    /* padding: 0.5rem 0; */
+}
+.pr-btns .btn {
+    /* padding: 0.7rem 2rem; */
+    /* background: linear-gradient(90deg, #7130d9 0%, #22aac9 100%); */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(113,48,217,0.08);
+}
+.pr-btns .btn:hover {
+    background: linear-gradient(90deg, #22aac9 0%, #7130d9 100%);
+    transform: translateY(-2px) scale(1.04);
+}
+@media screen and (max-width: 900px) {
+    .pr-card, .pr-card img, .pr-title, .pr-details {
+        width: 98vw;
+        max-width: 98vw;
+    }
+    .pr-card {
+        padding: 1.2rem 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .pr-card, .pr-card img, .pr-title, .pr-details {
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .pr-card img {
+        height: 180px;
+    }
+    .pr-title {
+        font-size: 1.3rem;
+    }
+    .pr-btns .btn {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
