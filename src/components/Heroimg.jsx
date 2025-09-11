@@ -11,7 +11,7 @@ const Heroimg = () => {
         <img  className = "introImg" src={bg2} alt="introimg"/>
         </div>
         <div className="content">
-          <p>Hi, I am a FreeLancer</p>
+          <p>Hi, I am a FreeLancer!!</p>
           <h1>React Developer</h1>
           <p className="subtitle">Crafting beautiful, responsive web experiences with modern React</p>
           <p className="description">Passionate about creating intuitive user interfaces and seamless user experiences. Specializing in React.js, JavaScript, and modern web technologies to build scalable applications that make a difference.</p>

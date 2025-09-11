@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", monospace;
+  scroll-behavior: smooth;
 }
 body {
   /* background: url(Assets/img/bg5.jpg); */
