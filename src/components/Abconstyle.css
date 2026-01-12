@@ -28,7 +28,7 @@
 }
 .right .img{
     max-width: 90%;
-    border: 1px solid #333;
+    border: 1px solid #602ba5;
 }
 .right .top{
     grid-column: 1 / span 9;

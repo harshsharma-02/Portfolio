@@ -43,7 +43,7 @@
 
 .social a:hover {
     transform: scale(1.5);
-}
+    }
 
 .footer-home-btn {
     height:40px;
@@ -68,8 +68,10 @@
   z-index: 10;
 }
 .footer-home-btn:hover {
-    background: linear-gradient(to top, #b17ae7, #95519e);
-  transform: translateY(-2px) scale(1.04);
+   /* border-radius : 30px; */
+  color: #a273ef;
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px 7px rgba(162, 115, 239, 0.3);
 }
 @media screen and (max-width: 900px) {
   .footer-home-btn {

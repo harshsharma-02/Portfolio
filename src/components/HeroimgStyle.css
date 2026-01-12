@@ -3,34 +3,26 @@
   width: 100%;
   position: relative;
 }
-.introImg {
+/* .introImg {
   height: 100%;
   width: 100%;
   background-size: cover;
   background-position: center;
   object-fit: cover;
-}
+} */
 .mask {
   height: 100vh;
   width: 100%;
   position: relative;
 }
-.introImg {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-}
+
 .mask::after {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 0.4;
+  left: -50px;
 }
 .hero {
   height: 100%;
@@ -98,7 +90,7 @@
   background: transparent;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius : 30px;
   font-family: "Ubuntu", monospace;
   font-weight: 500;
   font-size: 1rem;
@@ -108,9 +100,11 @@
 }
 
 .resume-btn:hover {
+  border-radius : 30px;
+  color: #a273ef;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(162, 115, 239, 0.4);
-  background: linear-gradient(135deg, #8b5cf6, #a273ef);
+  box-shadow: 0 0 12px 13px rgba(162, 115, 239, 0.3);
+  
 }
 
 .resume-btn span {
