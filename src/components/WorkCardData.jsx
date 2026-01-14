@@ -14,8 +14,8 @@ const ProjectCardData = [
         imgsrc: food,
         title: "FoodFest",
         text: "A smooth dining experience with online orders, reservations, and easy administration.",
-        project: "https://foodfest-sage.vercel.app/",
-        source: "https://github.com/harshsharma-02/resto"
+        project: "https://food-fest-xi.vercel.app/",
+        source: "https://github.com/harshsharma-02/FoodFest-React"
     },
     {
         imgsrc: Dash,
