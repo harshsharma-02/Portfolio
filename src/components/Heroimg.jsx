@@ -15,7 +15,7 @@ const Heroimg = () => {
           <p className="subtitle">Crafting beautiful, responsive web experiences with modern React</p>
           <p className="description">Passionate about creating intuitive user interfaces and seamless user experiences. Specializing in React.js, JavaScript, and modern web technologies to build scalable applications that make a difference.</p>
           <div className="button-container">
-            <a href="public/Harsh_SharmaRes.pdf" download className="resume-btn" target="_blank" >
+            <a href="/Res_Harsh.pdf" download className="resume-btn" target="_blank" >
               <span>Resume <FaDownload /></span> 
             </a>
           </div>
