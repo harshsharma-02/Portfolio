@@ -1,11 +1,6 @@
 import React from "react";
 import "./Footerstyle.css";
-import {
-  FaGithub,
-  FaLinkedinIn,
-  FaMailBulk,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaMailBulk, FaTwitter } from "react-icons/fa";
 import { FiChevronUp } from "react-icons/fi";
 
 const Footer = () => {
@@ -21,7 +16,6 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-cont">
         <div className="left">
-          
           <div className="mail">
             <h4>
               <FaMailBulk
@@ -39,13 +33,21 @@ const Footer = () => {
             strong intrest in computer science.
           </p>
           <div className="social">
-            <a href="https://www.linkedin.com/in/harsh-sharma-010355256/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/harsh-sharma-010355256/"
+              target="_blank "
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a href="https://github.com/harshsharma-02" target="_blank">
+            <a
+              href="https://github.com/harshsharma-02"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
@@ -58,7 +60,11 @@ const Footer = () => {
               />
             </a>
           </div>
-          <button className="footer-home-btn" onClick={handleBackToHome} title="Back to Top">
+          <button
+            className="footer-home-btn"
+            onClick={handleBackToHome}
+            title="Back to Top"
+          >
             <span>
               <FiChevronUp size={20} />
             </span>
