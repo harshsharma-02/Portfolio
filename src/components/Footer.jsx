@@ -53,12 +53,12 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </a>
-            <a href="#" target="_blank">
+            {/* <a href="" target="_blank"> */}
               <FaTwitter
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-            </a>
+            {/* </a> */}
           </div>
           <button
             className="footer-home-btn"

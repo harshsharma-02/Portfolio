@@ -13,7 +13,6 @@ import {
 } from "react-icons/si";
 
 const SkillsContent = () => {
-  <h1>Skills</h1>;
   const skills = [
     { name: "C", icon: <SiC />, color: "#3178C6" },
     { name: "C++", icon: <SiCplusplus />, color: "#339933" },

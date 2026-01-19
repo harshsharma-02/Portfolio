@@ -6,7 +6,7 @@ import WorkCardData from "./WorkCardData";
 const Work = () => {
   return (
     <div className="work-cont">
-      <h1 className="pr-heading"></h1>
+      {/* <h1 className="pr-heading"></h1> */}
       <div className="pr-cont">
         {WorkCardData.map((val,ind) => {
             return(
