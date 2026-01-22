@@ -1,6 +1,7 @@
 import pr1 from "../Assets/img/pr1.jpg";
 import food from "../Assets/img/food.jpg";
 import Dash from "../Assets/img/Dash.png"
+import Pass from "../Assets/img/Pass.png"
 
 const ProjectCardData = [
     {
@@ -17,6 +18,14 @@ const ProjectCardData = [
         project: "https://food-fest-xi.vercel.app/",
         source: "https://github.com/harshsharma-02/FoodFest-React"
     },
+    {
+    imgsrc: Pass,
+    title: "PassMan | Your Personalized Password Manager",
+    text: "A secure and responsive password management web app that allows users to create, store, update, and delete credentials locally. Built with React (Vite) and Tailwind CSS, PassMan focuses on fast UI rendering, clean state management, and client-side data persistence using localStorage without relying on third-party services.",
+    project: "https://passman-iota.vercel.app/",
+    source: "https://github.com/harshsharma-02/PassMan-v1"
+}
+,
     {
         imgsrc: Dash,
         title: "Weather Trends & Forecast Analysis Dashboard",

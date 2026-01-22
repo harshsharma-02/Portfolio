@@ -7,6 +7,7 @@ import Skills from "./routes/SkillsContent";
 import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 import Footer from "./components/Footer";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
+       <SpeedInsights />
     </>
   );
 }
